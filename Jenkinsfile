@@ -10,8 +10,9 @@ node {
 
     stage('Test') {
         echo 'Building....'
+        sh 'sudo mv /bla /error'
     }
-    
+
     stage('Deploy') {
         echo 'Deploying....'
     }
