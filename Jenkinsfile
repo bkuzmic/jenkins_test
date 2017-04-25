@@ -9,8 +9,7 @@ node {
     }
 
     stage('Test') {
-        echo 'Building....'
-        sh 'sudo mv /bla /error'
+        echo 'Building....'        
     }
 
     stage('Deploy') {
